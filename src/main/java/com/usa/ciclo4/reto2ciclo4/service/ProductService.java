@@ -35,6 +35,9 @@ public class ProductService {
                 if (product.getBrand()!= null){
                     dbProduct.get().setBrand(product.getBrand());
                 }
+                if (product.getModel() != null) {
+                    dbProduct.get().setModel(product.getModel());
+                }
                 if (product.getProcesor()!= null){
                     dbProduct.get().setProcesor(product.getProcesor());
                 }
