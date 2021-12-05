@@ -14,6 +14,7 @@ public class Product {
     @Id
     private Integer id;
     private String brand;
+    private String model;
     private String procesor;
     private String os;
     private String description;
@@ -34,6 +35,12 @@ public class Product {
 	}
 	public void setBrand(String brand) {
 		this.brand = brand;
+	}
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
 	}
 	public String getProcesor() {
 		return procesor;
