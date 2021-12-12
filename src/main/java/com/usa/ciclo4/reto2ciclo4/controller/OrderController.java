@@ -1,8 +1,8 @@
-package com.reto2.controller;
+package com.usa.ciclo4.reto2ciclo4.controller;
 
-import com.reto2.model.Gadget;
-import com.reto2.model.Order;
-import com.reto2.service.OrderService;
+import com.usa.ciclo4.reto2ciclo4.model.Product;
+import com.usa.ciclo4.reto2ciclo4.model.Order;
+import com.usa.ciclo4.reto2ciclo4.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
