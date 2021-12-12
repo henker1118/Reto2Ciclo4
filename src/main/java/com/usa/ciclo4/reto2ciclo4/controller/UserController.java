@@ -19,6 +19,11 @@ public class UserController {
     public List<User> getAll(){
         return userService.getAll();
     }
+    
+    @GetMapping("/{id}")
+    public Optional<User> getUser(@PathVariable("id") Integer id) {
+        return userService.getUser(id);
+    }
 
     @PostMapping("/new")
     @ResponseStatus(HttpStatus.CREATED)
