@@ -1,6 +1,6 @@
-package com.reto2.interfaces;
+package com.usa.ciclo4.reto2ciclo4.repository.crud;
 
-import com.reto2.model.Order;
+import com.usa.ciclo4.reto2ciclo4.model.Order;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;
