@@ -1,4 +1,4 @@
-package com.reto2.model;
+package com.usa.ciclo4.reto2ciclo4.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,7 +25,7 @@ public class Order {
     private Date registerDay;
     private String status;
     private User salesMan;
-    private Map<Integer, Gadget> products;
+    private Map<Integer, Product> products;
     private Map<Integer, Integer> quantities;
 
 }
