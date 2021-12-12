@@ -1,7 +1,7 @@
-package com.reto2.repository;
+package com.usa.ciclo4.reto2ciclo4.repository;
 
-import com.reto2.interfaces.OrderInterface;
-import com.reto2.model.Order;
+import com.usa.ciclo4.reto2ciclo4.repository.crud.OrderInterface;
+import com.usa.ciclo4.reto2ciclo4.model.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
