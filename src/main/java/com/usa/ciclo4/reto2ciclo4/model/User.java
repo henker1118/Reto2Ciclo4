@@ -17,8 +17,8 @@ public class User {
     private Integer id;
     private String identification;
     private String name;
-    private Date birthDay;
-    private String monthBirthDay;	
+    private Date birthtDay;
+    private String monthBirthtDay;	
     private String address;
     private String cellPhone;
     private String email;
@@ -43,17 +43,17 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Date getBirthDay() {
-		return birthDay;
+	public Date getBirthtDay() {
+		return birthtDay;
 	}
-	public void setBirthDay(Date birthDay) {
-		this.birthDay = birthDay;
+	public void setBirthtDay(Date birthtDay) {
+		this.birthtDay = birthtDay;
 	}
-	public String getMonthBirthDay() {
-		return monthBirthDay;
+	public String getMonthBirthtDay() {
+		return monthBirthtDay;
 	}
-	public void setMonthBirthDay(String monthBirthDay) {
-		this.monthBirthDay = monthBirthDay;
+	public void setMonthBirthtDay(String monthBirthtDay) {
+		this.monthBirthtDay = monthBirthtDay;
 	}
 	public String getAddress() {
 		return address;
