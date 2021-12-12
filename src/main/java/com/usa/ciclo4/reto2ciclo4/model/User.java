@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.Date;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -15,6 +17,8 @@ public class User {
     private Integer id;
     private String identification;
     private String name;
+    private Date birthDay;
+    private String monthBirthDay;	
     private String address;
     private String cellPhone;
     private String email;
@@ -38,6 +42,18 @@ public class User {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public Date getBirthDay() {
+		return birthDay;
+	}
+	public void setBirthDay(Date birthDay) {
+		this.birthDay = birthDay;
+	}
+	public Date getMonthBirthDay() {
+		return monthBirthDay;
+	}
+	public void setMonthBirthDay(String monthBirthDay) {
+		this.monthBirthDay = monthBirthDay;
 	}
 	public String getAddress() {
 		return address;
