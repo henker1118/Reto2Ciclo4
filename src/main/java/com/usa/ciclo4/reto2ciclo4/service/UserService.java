@@ -48,12 +48,12 @@ public class UserService {
                 if (user.getName() != null) {
                     dbUser.get().setName(user.getName());
                 }
-                if (user.getBirthDay() != null){
-                   dbUser.get().setBirthDay(user.getBirthDay());
+                if (user.getBirthtDay() != null){
+                   dbUser.get().setBirthtDay(user.getBirthtDay());
                 }
 
-                if (user.getMonthBirthDay() != null){
-                    dbUser.get().setMonthBirthDay(user.getMonthBirthDay());
+                if (user.getMonthBirthtDay() != null){
+                    dbUser.get().setMonthBirthtDay(user.getMonthBirthtDay());
                 }
                 if (user.getAddress() != null) {
                     dbUser.get().setAddress(user.getAddress());
