@@ -49,7 +49,7 @@ public class User {
 	public void setBirthDay(Date birthDay) {
 		this.birthDay = birthDay;
 	}
-	public Date getMonthBirthDay() {
+	public String getMonthBirthDay() {
 		return monthBirthDay;
 	}
 	public void setMonthBirthDay(String monthBirthDay) {
