@@ -1,7 +1,7 @@
-package com.reto2.service;
+package com.usa.ciclo4.reto2ciclo4.service;
 
-import com.reto2.model.Order;
-import com.reto2.repository.OrderRepository;
+import com.usa.ciclo4.reto2ciclo4.model.Order;
+import com.usa.ciclo4.reto2ciclo4.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
