@@ -19,6 +19,11 @@ public class ProductController {
     public List<Product> getAll(){
         return productService.getAll();
     }
+    
+    @GetMapping("/{id}")
+    public Optional<Product> getProduct(@PathVariable("id") Integer id) {
+        return productService.getProduct(id);
+    }
 
     @PostMapping("/new")
     @ResponseStatus(HttpStatus.CREATED)
